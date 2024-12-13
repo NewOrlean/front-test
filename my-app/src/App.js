@@ -12,7 +12,7 @@ function App() {
     setError(null);
 
     try {
-      const res = await axios.post("/api/data", {
+      const res = await axios.post("https://test-prg-production.up.railway.app/api/data", {
         name,
         age,
       });
